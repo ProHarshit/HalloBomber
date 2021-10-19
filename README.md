@@ -31,12 +31,12 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 
 - Just, Clone this repository -
 ```
-$ git clone git://github.com/proharshit/hallobomber.git
+$ git clone git://github.com/ProHarshit/HalloBomber.git
 ```
 
 - Change to cloned directory and run `hallobomber.sh` -
 ```
-$ cd hallobomber
+$ cd HalloBomber
 $ bash hallobomber.sh
 ```
 
