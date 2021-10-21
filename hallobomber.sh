@@ -105,17 +105,6 @@ main_menu() {
                     echo -e "\n${RED}[${WHITE}^${RED}]${RED} Then Please Setup";
                     exit;;
     esac                
-                    
-    read -p "${RED}[${WHITE}^${RED}]${GREEN} Have you hid your number ?${BLUE}(Y/N) ${CYAN}"
-    
-    case $REPLY in
-            Y | y)
-                    echo -e "\n${GREEN}[${WHITE}^${GREEN}]${GREEN} Ok\n";;
-            N | n)
-                    echo -e "\n${RED}[${WHITE}^${RED}]${RED} Then Please Hide";
-                    exit;;
-                    
-    esac
     
     read -p "${RED}[${WHITE}^${RED}]${GREEN} Please Enter Victim's Number with Country Code without +:  ${CYAN}" number
     
