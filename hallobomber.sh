@@ -95,17 +95,7 @@ main_menu() {
                     echo -e "\n${RED}[${WHITE}^${RED}]${RED}Then Please Be";
                     exit;;
     esac
-    
-    read -p "${RED}[${WHITE}^${RED}]${GREEN} Have you setup profile pic ?${BLUE}(Y/N) ${CYAN}"
-    
-    case $REPLY in
-            Y | y)
-                    echo -e "\n${GREEN}[${WHITE}^${GREEN}]${GREEN} Ok\n";;
-            N | n)
-                    echo -e "\n${RED}[${WHITE}^${RED}]${RED} Then Please Setup";
-                    exit;;
-    esac                
-    
+
     read -p "${RED}[${WHITE}^${RED}]${GREEN} Please Enter Victim's Number with Country Code without +:  ${CYAN}" number
     
     echo -e "\n${RED}[${WHITE}^${RED}] Note : ${BLUE} Please Press Send Key And Come back Here As Soon As Possible"
