@@ -44,7 +44,7 @@ def readisdc():
 
 def check_intr():
     try:
-        requests.get("https://motherfuckingwebsite.com")
+        requests.get("https://www.google.com")
     except Exception:
          
         mesgdcrt.FailureMessage("Poor internet connection detected")
